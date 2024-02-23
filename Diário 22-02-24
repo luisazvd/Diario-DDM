@@ -1,0 +1,75 @@
+Diário de aula:
+Nome do aplicativo com a devida descrição do escopo:
+  iNova PME- Prontuário Médico Eletrônico
+-Escopo:
+  Um prontuário médido eletrônico para gestão de unidades/clínicas de saúde, permitindo o controle de pacientes, funcionários, prescrições e bens/estoque.
+
+Material de estudo da aula:
+  Foi realizado a crição do projeto para o desenvolvimento e estudo inicial do sistema através do VSCode, um editor de texto com extensões para linguagens de programação.
+Com isso, foi possível identificar que ao criar o projeto em Flutter, o mesmo possuí a pasta "lib" que contém o arquivo de execução principal "main.dart", sendo o local de execução do projeto.
+Algumas outras específicações seriam o fato do projeto possuir pastas para cada sistema operacional que pode ser implementado, como MacOS, Linux e Android.
+Durante o desenvolvimento inicial, é apresentado o conceito de interpolação, o qual consiste em definir em linguagens novas quando a execução deve ocorrer para a impressão do texto ou apenas a váriavel propriamente dita.
+
+Atividade 01
+/*a) Defina as seguintes variáveis e seus respectivos valores: 
+displina, carga horária com casas decimais, professor responsável, 
+se a disciplina está ativa e quantidade de alunos. */
+
+void main(List<String> arguments) {
+  String disciplina = 'DDM';
+  double cargaHoraria = 80.5;
+  String professor = 'Hélio';
+  bool eAtivo = true;
+  int quantidadeAluno = 25;
+
+//b) imprima todos os valores utilizando: i) concatenação, ii) interpolação simples e (iii) a interpolação com processamento
+
+  print(disciplina + ' ' + professor);
+  print('$disciplina $quantidadeAluno');
+  print('$cargaHoraria ${quantidadeAluno >= 25 ? 'Presentes' : 'não presentes'}');
+
+
+ Atividade 02
+* Aplique o que aprendeu no seu projeto.
+
+  String nome = 'Dr. Jorge';
+  String funcao = 'Médico';
+  int idade = 35;
+  bool eAtivo = true;
+  print(nome +' '+ funcao);
+  print('$funcao ${eAtivo == true ? 'Atende' : 'Não atende'}');
+}
+
+  Atividade 03
+   * a) Refaça "Atividade 01" utilizando Inferência de Tipo
+  var disciplina = 'Construção de Software';
+  var cargaHoraria = 40.5;
+  var professor = 'Marcelo';
+  var eAtivo = true;
+  var quantidadeAluno = 25;
+
+  Atividade 04
+   * Aplique o que aprendeu no seu projeto (dynamic)
+
+  dynamic registroPaciente = 654;
+  registroPaciente = 'A100';
+}
+
+
+01) Considerando o exemplo, em qual contexto utilizamos uma variável dynamica?
+Resp: 
+02) Em relação ao seu projeto, faça 2 exemplos de uso incorreto. Justifique.
+03) Em relação ao seu projeto, faça 2 exemplos de uso correto. Justifique.
+
+Atividade - final/const
+  01) Em relação ao seu projeto, faça 2 exemplos de uso incorreto. Justifique.
+  02) Em relação ao seu projeto, faça 2 exemplos de uso correto. Justifique.
+  03) Qual a diferença entre uma variável, const e final. Qual devemos utilizar?
+
+
+
+
+
+
+
+
